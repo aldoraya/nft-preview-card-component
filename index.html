@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | NFT preview card component</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .content:hover .middle {
+      opacity: 1;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+  
+  <section class="bg-[#0d1a2d] h-screen w-full">
+    <div class="flex justify-center sm:items-center h-full sm:h-screen p-5 pt-14 sm:p-0">
+      <div class="bg-[#15273f] h-max w-72 rounded-2xl shadow-2xl p-4">
+        <nav class="content bg-[#00fffc] rounded-xl">
+          <figure>
+            <img class="opacity-1 hover:opacity-70 rounded-lg" src="images/image-equilibrium.jpg">
+          </figure>
+          <nav class="relative">
+            <img class="middle absolute bottom-20 left-24 ml-2 opacity-0" src="images/icon-view.svg">
+          </nav>
+        </nav>
+        <p class="my-3">
+          <a class="text-white text-sm sm:hover:text-[#00fffc] font-bold" href="#" style="-webkit-tap-highlight-color: transparent;">Equilibrium #3429</a>
+        </p>
+        <p class="my-3 text-[#657898] text-xs">
+          Our equilibrium collection promotes balance and calm.
+        </p>
+        <div class="flex my-3">
+          <img src="images/icon-ethereum.svg">
+          <p class="pl-2 text-[#00fffc] text-xs font-semibold">0.0041 ETH</p>
+          <div class="flex flex-1 justify-end">
+            <img src="images/icon-clock.svg">
+            <p class="text-[#8facd6] text-xs pl-1">3 days left</p>
+          </div>
+        </div>
+        <nav class="border-b border-gray-700 my-4"></nav>
+          <div class="flex">
+            <img class="w-7 h-7 border rounded-full" src="images/image-avatar.png">
+            <nav class="flex relative top-1">
+              <p class="pl-3 text-xs text-[#8facd6]">Creation of <nav class="pl-1 text-xs text-white font-semibold"> Jules Wyvern </nav></p>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+    <div class="bg-[#0d1a2d] flex flex-1 justify-center relative bottom-0 sm:bottom-6 pb-4 sm:pb-0 sm:mt-0 attribution text-white text-xs">
+      Challenge by <a class="pl-1 sm:hover:text-yellow-500" href="https://www.frontendmentor.io?ref=challenge" target="_blank" style="-webkit-tap-highlight-color: transparent;">Frontend Mentor</a>. 
+      Coded by <a class="pl-1 sm:hover:text-yellow-500" href="https://github.com/aldo110" target="_blank" style="-webkit-tap-highlight-color: transparent;">Aldo</a>.
+    </div>
+
+  </section>
+</body>
+</html>
